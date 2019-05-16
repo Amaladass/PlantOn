@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SosActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        tools:ignore="RtlCompat">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="SOS"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewsos" />
+            <Button
+                android:text="100"
+                android:layout_width="match_parent"
+                android:background="#4CAF50"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:id="@+id/button100" />
+
+            <Button
+                android:text="108"
+                android:layout_width="match_parent"
+                android:background="#4CAF50"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:id="@+id/button108" />
+
+            <TextView
+                android:text="Directors"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView22" />
+
+            <Button
+                android:text="Agriculture Director"
+                android:layout_width="match_parent"
+                android:background="#4CAF50"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:id="@+id/button8" />
+
+            <Button
+                android:text="Agriculture Additional Director"
+                android:layout_width="match_parent"
+                android:background="#4CAF50"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:id="@+id/button9" />
+
+            <Button
+                android:text="Agriculture Directorate FC"
+                android:background="#4CAF50"
+                android:layout_width="match_parent"
+                android:textColor="#ffffff"
+                android:layout_height="wrap_content"
+                android:id="@+id/button10" />
+
+            <Button
+                android:text="Seed Inspection Directorate DD"
+                android:background="#4CAF50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:id="@+id/button11" />
+            <Button
+                android:text="Seed Inspection Directorate AD(SC), Alandur"
+                android:background="#4CAF50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:id="@+id/button12" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
